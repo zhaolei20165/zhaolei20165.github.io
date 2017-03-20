@@ -1,120 +1,158 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<!-- Head tag -->
 <head>
-  <meta charset="utf-8">
-  
-  <title>面试题 | 个人博客</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- Set render engine for 360 browser -->
-  <meta name="renderer" content="webkit">
-  <!-- No Baidu Siteapp-->
-  <meta http-equiv="Cache-Control" content="no-siteapp"/>
-  <meta name="description" content="//将表单中的数据 进行格式化    function serializeForm(form) {        var result = {};        for(var i =0;i&amp;lt;form.length;i++){            var ele = form.elements[i];            switch (ele.type){">
-<meta property="og:type" content="article">
-<meta property="og:title" content="面试题">
-<meta property="og:url" content="http://yoursite.com/2017/03/19/hello-world/index.html">
-<meta property="og:site_name" content="个人博客">
-<meta property="og:description" content="//将表单中的数据 进行格式化    function serializeForm(form) {        var result = {};        for(var i =0;i&amp;lt;form.length;i++){            var ele = form.elements[i];            switch (ele.type){">
-<meta property="og:updated_time" content="2017-03-19T10:06:36.629Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="面试题">
-<meta name="twitter:description" content="//将表单中的数据 进行格式化    function serializeForm(form) {        var result = {};        for(var i =0;i&amp;lt;form.length;i++){            var ele = form.elements[i];            switch (ele.type){">
-  
-  
-    <link rel="icon" href="/img/logo.jpg">
-    <meta name="mobile-web-app-capable" content="yes">
-    <!-- Add to homescreen for Chrome on Android -->    
-    <link rel="icon" sizes="192x192" href="/img/logo.jpg">
-    <!-- Add to homescreen for Safari on iOS -->
-    <link rel="apple-touch-icon-precomposed" href="/img/logo.jpg">    
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/img/logo.jpg">
-    <meta name="msapplication-TileColor" content="#0e90d2">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
-  
-  
-<script type="text/javascript">
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?10f2720e6f47d1b4a5ebc811df8dc361";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="//将表单中的数据 进行格式化    function serializeForm(form) {        var result = {};        for(var i =0;i&amp;lt;form.length;i++){            var ele = form.element">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="John Doe">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="面试题"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="个人博客"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article" />
+    
+
+    <!--Page Cover-->
+    
+
+    <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>面试题 - 个人博客</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Analytics -->
+    
+
 
 </head>
-<body>
-<div id="container">
-  <div id="wrap">
-    <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">个人博客</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">首页</a>
-        
-          <a class="main-nav-link" href="/archives">文章</a>
-        
-          <a class="main-nav-link" href="/about">关于</a>
-        
-      </nav>
-      <!--
-      <nav id="sub-nav">
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" class="search-form">
-          <input type="search" name="word" maxlength="20" class="search-form-input" placeholder="Search">
-          <input type="submit" value="" class="search-form-submit">
-          <input name=tn type=hidden value="bds">
-          <input name=cl type=hidden value="3">
-          <input name=ct type=hidden value="2097152">
-          <input type="hidden" name="si" value="yoursite.com">
-        </form>
-      </div>
-      -->
-    </div>
-  </div>
-</header>
-    <div class="outer">
-      <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/03/19/hello-world/" class="article-date">
-  <time datetime="2017-03-19T09:51:23.239Z" itemprop="datePublished">2017-03-19</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      面试题
-    </h1>
-  
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- Table of Contents -->
+
+<body>
+
+<div class="bg-gradient"></div>
+<div class="bg-pattern"></div>
+
+<!-- Menu -->
+<!--Menu Links and Overlay-->
+<div class="menu-bg">
+    <div class="menu-container">
+        <ul>
+            
+            <li class="menu-item">
+                <a href="/">
+                    Home
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/archives">
+                    Archives
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/about.html">
+                    About
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/contact.html">
+                    Contact
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+<!--Hamburger Icon-->
+<nav>
+    <a href="#menu"></a>
+</nav>
+
+<div class="container">
+
+    <!-- Main Content -->
+    <div class="row">
+    <div class="col-sm-12">
+
+        <!--Title and Logo-->
+        <header>
+    <div class="logo">
+        <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
         
+    </div>
+</header>
+
+        <section class="main">
+            
+<div class="post">
+
+    <div class="post-header">
+        <h1 class="title">
+            <a href="/2017/03/19/hello-world/">
+                面试题
+            </a>
+        </h1>
+        <div class="post-info">
+            
+                <span class="date">2017-03-19</span>
+            
+            
+            
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
         <p>//将表单中的数据 进行格式化<br>    function serializeForm(form) {<br>        var result = {};<br>        for(var i =0;i&lt;form.length;i++){<br>            var ele = form.elements[i];<br>            switch (ele.type){<br>                case ‘text’:<br>                case ‘password’:<br>                case ‘textarea’:<br>                    //将元素的name和value拼接成 name=value<br>                        //用encodeURIComponent将= ？ &amp; 转译<br>                    result[ele.name] = encodeURIComponent(ele.value); //{username:1,password:2123}<br>                    //result.push(<code>${ele.name}=${ele.value}</code>);<br>            }<br>        }<br>        return result;<br>//        return result.join(‘&amp;’);<br>    }</p>
 <pre><code>function fn() {
     //传递数据的格式有两种 第一种 查询字符串  第二种 对象
@@ -123,305 +161,175 @@ var _hmt = _hmt || [];
 }
 </code></pre><p>///////////////////////////////////<br>数组扁平化<br>//[1,[2,[3,4],5,6]]=&gt;[1,2,3,4,5,6]<br>var ary = [1,[2,[3,4],5,6]];<br>    var arr = [];<br>    function xxx(ary) {<br>        for(var i=0;i&lt;ary.length;i++) {<br>            var cur = ary[i];<br>            if (typeof cur === ‘number’){<br>                arr.push(cur);<br>            }else {<br>                xxx(cur,arr);<br>            }<br>         }<br>    }<br>    xxx(ary);<br>    console.log(arr);</p>
 
-      
-      
-  <div class="article-statement">
-    <hr>  
-    1.如果本文帮到了您，不妨点一下右下角的 <a>分享到</a> 按钮。<br>
-    2.除非注明，本博文章均为原创，转载请以链接形式标明本文地址。<br>
-    3.本博文章只代表博主当时的观点或结论，与博主公司没有任何关系。<br>
-  </div>
-
     </div>
+
     
-    <footer class="article-footer">
-      
-        <a data-url="http://yoursite.com/2017/03/19/hello-world/" data-id="cj0hykmk00000us3kczh9qhdx" class="article-share-link" data-share="baidu" data-title="面试题">Share</a>
-      
 
-      
-        <a href="http://yoursite.com/2017/03/19/hello-world/#ds-thread" class="article-comment-link">Comments</a>
-      
-
-      
-    </footer>
-  </div>
-  
     
-  
-</article>
 
+    <!-- Comments -->
+    
 
-  <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="2017/03/19/hello-world/" data-title="面试题" data-url="http://yoursite.com/2017/03/19/hello-world/"></div>
-  </section>
-</section>
-      
-      <aside id="sidebar">
-  
-    <div class="widget-wrap">
-  <h3 class="widget-title">Follow Me</h3>
-  <div class="widget">
-    <ul>
-      
-      
-        
-        
-          <div style="text-align: center;">
-            <img src="http://7xkhp9.com1.z0.glb.clouddn.com/weixin/qrcode_258.jpg" style="width: 100%; max-width: 250px;">
-          </div>
-        
-        <li>
-          <a href="http://7xkhp9.com1.z0.glb.clouddn.com/weixin/qrcode_258.jpg" target="_blank">1. 我的「微信公众号」</a>
-        </li>
-      
-        
-        
-        <li>
-          <a href="http://weibo.com/605494869" target="_blank">2. 我的「微博」</a>
-        </li>
-      
-        
-        
-        <li>
-          <a href="http://www.zhihu.com/people/stone0090" target="_blank">3. 我的「知乎」</a>
-        </li>
-      
-        
-        
-        <li>
-          <a href="http://www.jianshu.com/users/0005893eaff9/latest_articles" target="_blank">4. 我的「简书」</a>
-        </li>
-      
-        
-        
-        <li>
-          <a href="http://www.cnblogs.com/shi0090" target="_blank">5. 我的「博客园」</a>
-        </li>
-      
-        
-        
-        <li>
-          <a href="https://www.v2ex.com/member/stone0090" target="_blank">6. 我的「V2EX」</a>
-        </li>
-      
-        
-        
-        <li>
-          <a href="http://blog.csdn.net/shi0090" target="_blank">7. 我的「CSDN」</a>
-        </li>
-      
-        
-        
-        <li>
-          <a href="https://github.com/stone0090" target="_blank">8. 我的「GitHub」</a>
-        </li>
-      
-        
-        
-        <li>
-          <a href="https://segmentfault.com/u/stone0090" target="_blank">9. 我的「SegmentFault」</a>
-        </li>
-      
-    </ul>
-  </div>
 </div>
-  
-    <div class="widget-wrap">
-  <h3 class="widget-title">Recommend Posts</h3>
-  <div class="widget">
-    <ul>
-      
-      
-        
-        <li>
-          <a href="/2016/07/24/javascript-lesson-readme/" target="_blank">1. 《JavaScript 闯关记》</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2015/09/02/dsoframer-introduction-resources/" target="_blank">2. DSOframer的简单介绍和资源整理</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2015/09/11/dsoframer-frequently-asked-question2/" target="_blank">3. DSOframer微软官方API的查阅方法</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2015/08/31/dsoframer-frequently-asked-question1/" target="_blank">4. DSOframer无法正常加载的解决方案</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2012/02/15/office-pdf2image/" target="_blank">5. C#技术分享-PDF转图片的10种方法</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2012/02/22/office-doc2image/" target="_blank">6. C#技术分享-DOC转图片的3种方法</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2015/08/30/donet-opensource-stonefw-introduction/" target="_blank">7. DoNet开源项目-基于jQuery EasyUI的后台管理系统</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2016/01/17/donet-opensource-dian-introduction/" target="_blank">8. DoNet开源项目-基于Amaze UI的点餐系统</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2015/08/29/hexo-theme-landscape-plus-optimize/" target="_blank">9. Hexo官方主题landscape-plus优化</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2016/04/17/frontend-css-position-learning-note/" target="_blank">10. CSS基础知识之position</a>
-        </li>
-      
-        
-        <li>
-          <a href="/2016/06/10/frontend-css-float-learning-note/" target="_blank">11. CSS基础知识之float</a>
-        </li>
-      
-    </ul>
-  </div>
+        </section>
+
+    </div>
 </div>
-  
-    
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">2017年 03月</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Comments</h3>
-    <div class="widget">
-      <!-- 多说最新评论 start -->
-      <div class="ds-recent-comments" data-num-items="5" data-show-avatars="0" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"></div>
-      <!-- 多说最新评论 end -->
-      <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-      <script type="text/javascript">
-        var duoshuoQuery = {short_name:"shijiajie"};
-        (function() {
-          var ds = document.createElement('script');
-          ds.type = 'text/javascript';ds.async = true;
-          ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-          ds.charset = 'UTF-8';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
-      </script>
-      <!-- 多说公共JS代码 end -->
-    </div>
-  </div>
+</div>
 
-  
-</aside>
-      
+<!-- Footer -->
+<div class="push"></div>
+
+<footer class="footer-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
+                <h2>About</h2>
+                <p>
+                    This theme was developed by <a href="https://github.com/klugjo">Jonathan Klughertz</a>. The source code is available on Github. Create Websites. Make Magic.
+                </p>
+            </div>
+            
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
+        <h2>Recent Posts</h2>
+        <ul>
+            
+            <li>
+                <a class="footer-post" href="/2017/03/19/hello-world/">面试题</a>
+            </li>
+            
+        </ul>
     </div>
-    <footer id="footer">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-  </script>
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      Copyright &copy; 2012 - 2017 <a href="/" target="_blank">John Doe</a>.
-      &nbsp;
-      <span id="busuanzi_container_site_pv">
-        总访问量 <a href="http://service.ibruce.info/" target="_blank"><span id="busuanzi_value_site_pv"></span></a> 次
-      </span>
-      <span id="busuanzi_container_site_uv">
-        <a href="http://service.ibruce.info/" target="_blank"><span id="busuanzi_value_site_uv"></span></a> 人.
-      </span>
-      
-        &nbsp;
-        <span>
-          <a href="http://www.miibeian.gov.cn" >粤ICP备15013245号-2</a>.
-        </span>
-      
+
+
+
+            
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="list-inline footer-social-icons">
+                    
+                    <li class="list-inline-item">
+                        <a href="https://github.com/klugjo/hexo-theme-alpha-dust">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/?lang=en">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-facebook"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-instagram"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://dribbble.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-dribbble"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://plus.google.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-google-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://www.behance.net/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-behance"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://500px.com/">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-500px"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="mailto:test@example.com">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-envelope-o"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="\#">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-rss"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="footer-copyright">
+                    @Untitled. All right reserved | Design & Hexo <a href="http://www.codeblocq.com/">Jonathan Klughertz</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 
-  </div>
-  <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">首页</a>
-  
-    <a href="/archives" class="mobile-nav-link">文章</a>
-  
-    <a href="/about" class="mobile-nav-link">关于</a>
-  
-</nav>
-  <!-- totop start -->
-<div id="totop">
-<a title="totop"><img src="/img/scrollup.png"/></a>
-</div>
+<!-- After footer scripts -->
 
-<!-- totop end -->
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 
-<!-- 多说公共js代码 start -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"shijiajie"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0]
-     || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-  </script>
-<!-- 多说公共js代码 end -->
+<!-- Tween Max -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
 
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
-<!-- 百度分享 start -->
+<!-- Custom JavaScript -->
+<script src="/js/main.js"></script>
 
-<div id="article-share-box" class="article-share-box">
-  <div id="bdshare" class="bdsharebuttonbox article-share-links">
-    <a class="article-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
-    <a class="article-share-weixin" data-cmd="weixin" title="分享到微信"></a>
-    <a class="article-share-qq" data-cmd="sqq" title="分享到QQ"></a>
-    <a class="article-share-renren" data-cmd="renren" title="分享到人人网"></a>
-    <a class="article-share-more" data-cmd="more" title="更多"></a>
-  </div>
-</div>
-<script>
-  function SetShareData(cmd, config) {
-    if (shareDataTitle && shareDataUrl) {
-      config.bdText = shareDataTitle;
-      config.bdUrl = shareDataUrl;
-    }
-    return config;
-  }
-  window._bd_share_config={
-    "common":{onBeforeClick: SetShareData},
-    "share":{"bdCustomStyle":"/css/bdshare.css"}
-  };
-  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
-</script>
-
-<!-- 百度分享 end -->
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Disqus Comments -->
 
 
 
-
-<script src="/js/script.js"></script>
-
-</div>
 </body>
+
 </html>
