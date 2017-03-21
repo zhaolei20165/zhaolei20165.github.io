@@ -4,19 +4,23 @@
 <head>
   <meta charset="utf-8">
   
-  <title>个人博客</title>
+  <title>面试题 | 个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Set render engine for 360 browser -->
   <meta name="renderer" content="webkit">
   <!-- No Baidu Siteapp-->
   <meta http-equiv="Cache-Control" content="no-siteapp"/>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="个人博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="//将表单中的数据 进行格式化    function serializeForm(form) {        var result = {};        for(var i =0;i&amp;lt;form.length;i++){            var ele = form.elements[i];            switch (ele.type){">
+<meta property="og:type" content="article">
+<meta property="og:title" content="面试题">
+<meta property="og:url" content="http://yoursite.com/2017/03/21/hello-world1/index.html">
 <meta property="og:site_name" content="个人博客">
+<meta property="og:description" content="//将表单中的数据 进行格式化    function serializeForm(form) {        var result = {};        for(var i =0;i&amp;lt;form.length;i++){            var ele = form.elements[i];            switch (ele.type){">
+<meta property="og:updated_time" content="2017-03-19T10:06:36.629Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="个人博客">
+<meta name="twitter:title" content="面试题">
+<meta name="twitter:description" content="//将表单中的数据 进行格式化    function serializeForm(form) {        var result = {};        for(var i =0;i&amp;lt;form.length;i++){            var ele = form.elements[i];            switch (ele.type){">
   
   
     <link rel="icon" href="/img/logo.jpg">
@@ -87,9 +91,7 @@ var _hmt = _hmt || [];
   </div>
 </header>
     <div class="outer">
-      <section id="main">
-  
-    <article id="post-hello-world1" class="article article-type-post" itemscope itemprop="blogPost">
+      <section id="main"><article id="post-hello-world1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/03/21/hello-world1/" class="article-date">
   <time datetime="2017-03-21T06:55:19.928Z" itemprop="datePublished">2017-03-21</time>
@@ -102,8 +104,8 @@ var _hmt = _hmt || [];
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/21/hello-world1/">面试题</a>
+    <h1 class="article-title" itemprop="name">
+      面试题
     </h1>
   
 
@@ -123,6 +125,13 @@ var _hmt = _hmt || [];
 
       
       
+  <div class="article-statement">
+    <hr>  
+    1.如果本文帮到了您，不妨点一下右下角的 <a>分享到</a> 按钮。<br>
+    2.除非注明，本博文章均为原创，转载请以链接形式标明本文地址。<br>
+    3.本博文章只代表博主当时的观点或结论，与博主公司没有任何关系。<br>
+  </div>
+
     </div>
     
     <footer class="article-footer">
@@ -138,64 +147,24 @@ var _hmt = _hmt || [];
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/03/19/hello-world/" class="article-date">
-  <time datetime="2017-03-19T09:51:23.239Z" itemprop="datePublished">2017-03-19</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/19/hello-world/">面试题</a>
-    </h1>
+    <a href="/2017/03/19/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">面试题</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- Table of Contents -->
-        
-        <p>//将表单中的数据 进行格式化<br>    function serializeForm(form) {<br>        var result = {};<br>        for(var i =0;i&lt;form.length;i++){<br>            var ele = form.elements[i];<br>            switch (ele.type){<br>                case ‘text’:<br>                case ‘password’:<br>                case ‘textarea’:<br>                    //将元素的name和value拼接成 name=value<br>                        //用encodeURIComponent将= ？ &amp; 转译<br>                    result[ele.name] = encodeURIComponent(ele.value); //{username:1,password:2123}<br>                    //result.push(<code>${ele.name}=${ele.value}</code>);<br>            }<br>        }<br>        return result;<br>//        return result.join(‘&amp;’);<br>    }</p>
-<pre><code>function fn() {
-    //传递数据的格式有两种 第一种 查询字符串  第二种 对象
-    // 自己拼成 username=123&amp;password=321&amp;area=aaa  / {username:123,password:321,are:aaa}   formData
-    var result = serializeForm(myform);
-}
-</code></pre><p>///////////////////////////////////<br>数组扁平化<br>//[1,[2,[3,4],5,6]]=&gt;[1,2,3,4,5,6]<br>var ary = [1,[2,[3,4],5,6]];<br>    var arr = [];<br>    function xxx(ary) {<br>        for(var i=0;i&lt;ary.length;i++) {<br>            var cur = ary[i];<br>            if (typeof cur === ‘number’){<br>                arr.push(cur);<br>            }else {<br>                xxx(cur,arr);<br>            }<br>         }<br>    }<br>    xxx(ary);<br>    console.log(arr);</p>
-
-      
-      
-    </div>
-    
-    <footer class="article-footer">
-      
-        <a data-url="http://yoursite.com/2017/03/19/hello-world/" data-id="cj0j6s0rj0000no3k8zyscfe7" class="article-share-link" data-share="baidu" data-title="面试题">Share</a>
-      
-
-      
-        <a href="http://yoursite.com/2017/03/19/hello-world/#ds-thread" class="article-comment-link">Comments</a>
-      
-
-      
-    </footer>
-  </div>
   
 </article>
 
 
-  
-
+  <section id="comments">
+    <div id="ds-thread" class="ds-thread" data-thread-key="2017/03/21/hello-world1/" data-title="面试题" data-url="http://yoursite.com/2017/03/21/hello-world1/"></div>
+  </section>
 </section>
       
       <aside id="sidebar">
